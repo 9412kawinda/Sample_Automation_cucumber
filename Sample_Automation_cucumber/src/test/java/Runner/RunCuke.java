@@ -30,7 +30,7 @@ public class RunCuke extends AbstractTestNGCucumberTests {
         File newFile = new File(fileName);
         ExtentCucumberFormatter.initiateExtentCucumberFormatter(newFile,false);
         // Loads the extent config xml to customize on the report.
-        ExtentCucumberFormatter.loadConfig(new File("src/test/resources/extent-config.xml"));
+//        ExtentCucumberFormatter.loadConfig(new File("src/test/resources/extent-config.xml"));
 
         // User can add the system information as follows
         ExtentCucumberFormatter.addSystemInfo("Browser Name", "Chrome");
