@@ -14,8 +14,8 @@ public class SearchPageActions {
         PageFactory.initElements(SeleniumDriver.getDriver(),searchPageLocators);
     }
 
-    public void enterSearchName(String productName) throws InterruptedException{
-        searchPageLocators.EnterSearchField.sendKeys(productName);
+    public void enterSearchName(String product) throws InterruptedException{
+        searchPageLocators.EnterSearchField.sendKeys(product);
         Thread.sleep(5000);
     }
 
