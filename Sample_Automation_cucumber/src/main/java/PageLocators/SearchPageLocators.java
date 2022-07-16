@@ -11,6 +11,6 @@ public class SearchPageLocators {
     public WebElement EnterSearchField;
 
 //    search button
-    @FindBy(how = How.XPATH,using = "//*[@id='gh-btn']")
+    @FindBy(how = How.ID,using = "gh-btn")
     public WebElement SearchButton;
 }

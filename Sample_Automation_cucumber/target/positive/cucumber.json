@@ -1,1 +1,129 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3273800001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAction.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate search function",
+        "description": "",
+        "id": "search-function-testing-in-ebay-website;validate-search-function;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4990953599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterAction.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4970344600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Home page \"https://www.ebay.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.ebay.com/",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchSteps.i_am_on_the_home_page_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13147101,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Get the page URL \u0026 verify if it is the correct page that open",
+            "match": {
+              "location": "SearchSteps.get_the_page_url_verify_if_it_is_the_correct_page_that_open()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5148301100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#      Then Enter a valid product as \"\u003cproduct\u003e\" on the search field"
+              }
+            ],
+            "line": 9,
+            "name": "Enter a valid product as \"watch\" on the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "watch",
+                  "offset": 26
+                }
+              ],
+              "location": "SearchSteps.enter_a_valid_product_as_something_on_the_search_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8051724800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click the search button",
+            "match": {
+              "location": "SearchSteps.click_the_search_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Search"
+          },
+          {
+            "line": 4,
+            "name": "@Search-Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Search function testing in ebay website",
+    "description": "",
+    "id": "search-function-testing-in-ebay-website",
+    "keyword": "Feature",
+    "uri": "Search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Search"
+      }
+    ]
+  }
+]

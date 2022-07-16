@@ -43,5 +43,6 @@ public class SearchSteps {
     @And("^Click the search button$")
     public void click_the_search_button() throws Throwable {
         searchPageActions.clickSearchButton();
+        System.out.println("debug2");
     }
 }

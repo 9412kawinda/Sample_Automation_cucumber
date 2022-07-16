@@ -21,5 +21,6 @@ public class SearchPageActions {
 
     public void clickSearchButton(){
         searchPageLocators.SearchButton.click();
+        System.out.println("debug");
     }
 }
